@@ -7,7 +7,7 @@
 <ul>
   <% @contacts.each do |contact|%>
   <div class = 'contacter'><li> <%= contact.first_name %> <%= contact.last_name %> (<%= contact.email %>)
-    <br><div class='option'>Edit<div class = 'seper'>    |      </div>Delete</div>
+    <br><div class="sizer"><a href=#>Edit</a>    |      <a href=#>Delete</a></div>
   </li></div>
   <%counter +=1%>
   <%end %>

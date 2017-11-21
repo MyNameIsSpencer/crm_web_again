@@ -81,6 +81,10 @@ h3 {
   text-decoration: none;
 }
 
+.sizer {
+  font-size: 20px;
+}
+
 footer {
   background-color: black;
   text-align: center;
